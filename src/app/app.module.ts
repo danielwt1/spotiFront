@@ -4,11 +4,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AlbumsComponent } from './components/album/albums/albums.component';
+import { SidebarComponent } from './components/global/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlbumsComponent
+    AlbumsComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
