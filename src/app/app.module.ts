@@ -7,13 +7,15 @@ import { AlbumsComponent } from './components/album/albums/albums.component';
 import { SidebarComponent } from './components/global/sidebar/sidebar.component';
 import { httpInterceptorProviders } from './httpInterceptors';
 import { TopbarComponent } from './components/global/topbar/topbar.component';
+import { SearchComponent } from './components/search/search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AlbumsComponent,
     SidebarComponent,
-    TopbarComponent
+    TopbarComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
