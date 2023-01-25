@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    apiUrl: 'http://my-api-url'
+    apiUrl: 'https://api.spotify.com/v1/'
   };
